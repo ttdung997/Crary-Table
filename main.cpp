@@ -6,13 +6,8 @@ using namespace std;
 #include <GL/glut.h>
 #include"game.h"
 #include <ctime> 
-#pragma comment (lib,"opengl32.lib")
-#pragma comment (lib,"glu32.lib")
-#pragma comment (lib,"glut32.lib")
- GLfloat xRotated, yRotated, zRotated;
  GLfloat x1=-2.9;
  GLfloat y1=2.9;
- GLfloat a1,b1,c1,d1;
  GLfloat xn=0,yn=0;
  GLfloat xtt[20],ytt[20];
  //GLfloat xtt,ytt;
