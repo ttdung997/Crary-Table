@@ -1,3 +1,8 @@
+#ifndef INTRO_H
+#define INTRO_H
+#include <GL/glut.h>
+#include "gameobject.h"
+#include "khaibao.h"
 void intro(GLfloat &x1,GLfloat &y1){
 	 glColor4f(0,0,1,0.6);
 	 win A;
@@ -22,3 +27,4 @@ void intro(GLfloat &x1,GLfloat &y1){
 	}
 	
 }
+#endif // INTRO_H

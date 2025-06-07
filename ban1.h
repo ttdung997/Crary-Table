@@ -1,3 +1,7 @@
+#ifndef BAN1_H
+#define BAN1_H
+#include <GL/glut.h>
+#include "gameobject.h"
 void ban1(GLfloat &x1,GLfloat &y1,GLfloat &xtt,GLfloat &ytt,int &kt){
 	int i;
 	hcn A[3];
@@ -25,3 +29,4 @@ void ban1(GLfloat &x1,GLfloat &y1,GLfloat &xtt,GLfloat &ytt,int &kt){
 	
 }
 
+#endif // BAN1_H

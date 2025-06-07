@@ -1,4 +1,7 @@
-#include<iostream>
+#ifndef GAMEOBJECT_H
+#define GAMEOBJECT_H
+#include <GL/glut.h>
+#include <iostream>
 using namespace std;
 class duongthang{
  public:
@@ -279,3 +282,4 @@ class move{
 };
 
 
+#endif // GAMEOBJECT_H

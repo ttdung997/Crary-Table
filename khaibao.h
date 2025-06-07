@@ -1,3 +1,6 @@
+#ifndef KHAIBAO_H
+#define KHAIBAO_H
+#include <GL/glut.h>
 void drawStrokeText(char*string,int x,int y,int z)
 {
           char *c;
@@ -85,3 +88,4 @@ void khoitao(void){
    glEnable(GL_BLEND);
    glLoadIdentity ();    
 }
+#endif // KHAIBAO_H

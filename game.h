@@ -1,3 +1,5 @@
+#ifndef GAME_H
+#define GAME_H
 #include"gameobject.h"
 #include"khaibao.h"
 #include"intro.h"
@@ -10,3 +12,4 @@
 
 
 
+#endif // GAME_H

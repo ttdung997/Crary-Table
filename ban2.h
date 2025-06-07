@@ -1,3 +1,7 @@
+#ifndef BAN2_H
+#define BAN2_H
+#include <GL/glut.h>
+#include "gameobject.h"
 void ban2(GLfloat &x1,GLfloat &y1,
           GLfloat &xtt0,GLfloat &xtt1,GLfloat &xtt2,GLfloat &xtt3,GLfloat &xtt4,
 	  GLfloat &xtt5,GLfloat &xtt6,GLfloat &xtt7,GLfloat &xtt8,GLfloat &xtt9,
@@ -36,3 +40,4 @@ void ban2(GLfloat &x1,GLfloat &y1,
 	 B.ve();
 	 B.thang(x1,y1);
 }
+#endif // BAN2_H
